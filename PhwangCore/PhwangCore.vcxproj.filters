@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{8fa723c3-ae9e-42b2-bf7e-0a1a8bcd66eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\main">
+      <UniqueIdentifier>{7a25256b-ab4e-4ef7-ad56-3da974eb73bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\utils">
+      <UniqueIdentifier>{ac9e64d6-385f-477e-b142-828ba0202e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\utils\ipc">
+      <UniqueIdentifier>{6eddd5e5-c45a-41d1-bfb4-b89723290613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\utils\portable">
+      <UniqueIdentifier>{03f8653f-bd61-425b-ade5-cec72550b1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\utils\util">
+      <UniqueIdentifier>{72031322-5082-4eba-83fa-c1aeb5c61b03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -21,25 +39,55 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PhwangIpcApiClass.h">
+      <Filter>code\utils\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="PhwangIpcBaseClass.h">
+      <Filter>code\utils\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="PhwangIpcTcpClass.h">
+      <Filter>code\utils\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="PhwangIpcTestClass.h">
+      <Filter>code\utils\ipc</Filter>
+    </ClInclude>
     <ClInclude Include="PhwangRootClass.h">
-      <Filter>Header Files</Filter>
+      <Filter>code\main</Filter>
     </ClInclude>
     <ClInclude Include="PhwangPortableClass.h">
-      <Filter>Header Files</Filter>
+      <Filter>code\utils\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="PhwangUtilClass.h">
+      <Filter>code\utils\util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PhwangCore.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="PhwangIpcApiClass.cpp">
+      <Filter>code\utils\ipc</Filter>
     </ClCompile>
-    <ClCompile Include="PhwangPortableClass.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="PhwangIpcBaseClass.cpp">
+      <Filter>code\utils\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="PhwangIpcTcpClass.cpp">
+      <Filter>code\utils\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="PhwangIpcTestClass.cpp">
+      <Filter>code\utils\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="PhwangCore.cpp">
+      <Filter>code\main</Filter>
     </ClCompile>
     <ClCompile Include="PhwangRootClass.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>code\main</Filter>
+    </ClCompile>
+    <ClCompile Include="PhwangPortableClass.cpp">
+      <Filter>code\utils\portable</Filter>
+    </ClCompile>
+    <ClCompile Include="PhwangUtilClass.cpp">
+      <Filter>code\utils\util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

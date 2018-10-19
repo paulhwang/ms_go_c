@@ -1,7 +1,10 @@
 #include "stdafx.h"
-#include <thread>
-#include <chrono>
+
+#ifdef WIN32
 #include <windows.h>
+#else
+#endif
+
 #include "PhwangPortableClass.h"
 
 
